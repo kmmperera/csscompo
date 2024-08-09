@@ -1,0 +1,170 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.card-wraper {
+  font-size: 20px;
+  padding-inline: 2em;
+  padding-block: 1em;
+  width: 5em;
+  border-radius: 12px;
+  margin-top: 2em;
+  margin-left: 2em;
+  box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.5);
+}
+.card-wraper .image img {
+  width: 100%;
+  aspect-ratio: 1/1;
+  object-fit: cover;
+  border-radius: 100%;
+}
+.card-wraper .text {
+  text-align: center;
+}
+.card-wraper .text .heading {
+  font-size: 1em;
+  font-weight: 600;
+  margin-bottom: 0.2em;
+}
+.card-wraper .text .description {
+  font-size: 0.6em;
+  font-weight: 400;
+}
+
+.favourite-card-wrapper {
+  font-size: 20px;
+  padding-inline: 1em;
+  padding-block: 1em;
+  width: 10em;
+  border-radius: 12px;
+  margin-top: 2em;
+  margin-left: 2em;
+  box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.5);
+}
+.favourite-card-wrapper .heart-icon {
+  text-align: right;
+}
+.favourite-card-wrapper .heart-icon .bi-heart-fill {
+  font-size: 0.8em;
+  color: rgb(33, 175, 33);
+}
+.favourite-card-wrapper .favourite-image {
+  display: flex;
+  justify-content: center;
+  margin-top: 0.5em;
+}
+.favourite-card-wrapper .favourite-image img {
+  width: 70%;
+  aspect-ratio: 1/1;
+  object-fit: cover;
+  border-radius: 100%;
+}
+.favourite-card-wrapper .favourite-text {
+  text-align: center;
+}
+.favourite-card-wrapper .favourite-text .favourite-heading {
+  text-align: left;
+  font-size: 1em;
+  font-weight: 600;
+  margin-bottom: 0.4em;
+  margin-top: 0.4em;
+}
+.favourite-card-wrapper .favourite-text .favourite-description {
+  text-align: left;
+  font-size: 0.6em;
+  font-weight: 400;
+}
+.favourite-card-wrapper .favourite-text .favourite-other-details {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1em;
+}
+.favourite-card-wrapper .favourite-text .favourite-other-details .price {
+  font-size: 0.7em;
+  font-weight: 600;
+}
+.favourite-card-wrapper .favourite-text .favourite-other-details .price .dollar-mark {
+  color: rgb(235, 90, 114);
+}
+.favourite-card-wrapper .favourite-text .favourite-other-details .rating {
+  font-size: 0.7em;
+  font-weight: 600;
+}
+.favourite-card-wrapper .favourite-text .favourite-other-details .rating .bi-star-fill {
+  color: gold;
+  margin-right: 0.4em;
+}
+
+.horizontal-card {
+  font-size: 20px;
+  padding: 0.5em;
+  padding-right: 2em;
+  display: inline-flex;
+  gap: 1em;
+  height: 3.5em;
+  box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.5);
+  border-radius: 12px;
+  margin-top: 2em;
+  margin-left: 2em;
+}
+.horizontal-card .image img {
+  height: 100%;
+  aspect-ratio: 1/1;
+  object-fit: cover;
+  border-radius: 12px;
+}
+.horizontal-card .text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.horizontal-card .text .heading {
+  font-size: 0.9em;
+  font-weight: 600;
+}
+.horizontal-card .text .stars {
+  font-size: 0.5em;
+}
+.horizontal-card .text .stars .bi-star-fill {
+  margin-right: 0.4em;
+  color: gold;
+}
+.horizontal-card .text .price {
+  font-size: 0.9em;
+  font-weight: 600;
+}
+.horizontal-card .text .price .dolloar-sign {
+  font-size: 0.9em;
+  color: rgb(207, 85, 105);
+}
+
+.service-card {
+  font-size: 20px;
+  padding-inline: 0.5em;
+  padding-block: 1em;
+  width: 12em;
+  box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.5);
+  border-radius: 12px;
+  margin-top: 2em;
+  margin-left: 2em;
+  text-align: center;
+}
+.service-card .service-icon {
+  font-size: 4em;
+  color: rgb(57, 155, 57);
+}
+.service-card .heading {
+  color: rgb(57, 155, 57);
+  font-weight: 600;
+  font-size: 0.9em;
+  margin-block: 0.5em;
+}
+.service-card .description {
+  color: rgb(46, 104, 46);
+  font-weight: 400;
+  font-size: 0.7em;
+  max-width: 80%;
+  margin-inline: auto;
+}
+
+/*# sourceMappingURL=card-components.css.map */

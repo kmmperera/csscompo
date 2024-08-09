@@ -1,0 +1,129 @@
+<div class="card-wraper">
+  
+    <div class="image">
+      <img src="https://media.istockphoto.com/id/1829241109/photo/enjoying-a-brunch-together.jpg?b=1&s=612x612&w=0&k=20&c=Mn_EPBAGwtzh5K6VyfDmd7Q5eJFXSHhGWVr3T4WDQRo=">
+      
+    </div>
+   <div class="text">
+      <div class="heading">Dessert</div>
+      <div class="description">(48 dessert)</div>
+   </div>
+</div>
+
+<div class="favourite-card-wrapper">
+  
+  <div class="favourite-image">
+    <img src="https://www.foodiesfeed.com/wp-content/uploads/2023/06/burger-with-melted-cheese.jpg">
+  </div>
+  
+  <div class="favourite-text">
+          <div class="favourite-heading">Vegitable Salad</div>
+        <div class="favourite-description">Description of the item</div>
+
+         <div class="favourite-other-details">
+                   <div class="price">$24.50</div>
+                   <div class="rating">*****</div>
+
+         </div>
+
+  </div>
+</div>
+
+
+
+
+
+.card-wraper {
+  font-size: 20px;
+  padding-inline: 2em;
+  padding-block: 1em;
+    width: 5em;
+  
+  border-radius:12px;
+  margin-top:2em;
+  margin-left:2em;
+  box-shadow:1px 1px 8px rgba(0,0,0,0.5);
+}
+.image {
+  img {
+    width: 100%;
+    aspect-ratio:1/1;
+    object-fit: cover;
+    border-radius:100%;
+  }
+}
+.text {
+ text-align:center;
+}
+ .heading {
+    font-size:1em;
+    font-weight:600;
+    margin-bottom:0.2em;
+  }
+  .description {
+        font-size:0.6em;
+    font-weight:400;
+
+  }
+
+.favourite-card-wrapper{
+    font-size: 20px;
+  padding-inline: 1em;
+  padding-block: 1em;
+    width: 10em;
+  
+  border-radius:12px;
+  margin-top:2em;
+  margin-left:2em;
+  box-shadow:1px 1px 8px rgba(0,0,0,0.5);
+
+  
+}
+.favourite-image{
+ display:flex;
+  justify-content:center;
+  margin-top:0.5em;
+  img{
+    
+        width: 70%;
+    aspect-ratio:1/1;
+    object-fit: cover;
+    border-radius:100%;
+
+    
+  }
+}
+
+.favourite-text{
+   text-align:center;
+
+  .favourite-heading{
+    text-align:left;
+        font-size:1em;
+    font-weight:600;
+    margin-bottom:0.4em;
+margin-top:0.4em;
+  }
+  .favourite-description{
+    text-align:left;
+    font-size:0.6em;
+    font-weight:400;
+
+
+  }
+  .favourite-other-details{
+    display:flex;
+    justify-content:space-between;
+    margin-top:1em;
+    .price{
+          font-size:0.7em;
+    font-weight:600;
+
+    }
+    .rating{
+          font-size:0.7em;
+    font-weight:600;
+
+    }
+  }
+}

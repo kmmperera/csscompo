@@ -1,0 +1,217 @@
+body{
+    font-family: 'Roboto',sans-serif;
+}
+
+
+            // card with text and image
+.card-wraper {
+    font-size: 20px;
+    padding-inline: 2em;
+    padding-block: 1em;
+      width: 5em;
+    
+    border-radius:12px;
+    margin-top:2em;
+    margin-left:2em;
+    box-shadow:1px 1px 8px rgba(0,0,0,0.5);
+
+
+    .image {
+        img {
+          width: 100%;
+          aspect-ratio:1/1;
+          object-fit: cover;
+          border-radius:100%;
+        }
+      }
+      .text {
+        text-align:center;
+    
+        .heading {
+            font-size:1em;
+            font-weight:600;
+            margin-bottom:0.2em;
+        }
+        .description {
+                font-size:0.6em;
+            font-weight:400;
+    
+        }
+      }
+       
+  }
+  
+            // card with text and image price and heart
+  .favourite-card-wrapper{
+      font-size: 20px;
+    padding-inline: 1em;
+    padding-block: 1em;
+      width: 10em;
+    
+    border-radius:12px;
+    margin-top:2em;
+    margin-left:2em;
+    box-shadow:1px 1px 8px rgba(0,0,0,0.5);
+  
+
+    .heart-icon{
+        text-align: right;
+        .bi-heart-fill{
+            font-size: 0.8em;
+            color: rgb(33, 175, 33);
+         
+        }
+      }
+
+
+      .favourite-image{
+        display:flex;
+         justify-content:center;
+         margin-top:0.5em;
+         img{
+           
+               width: 70%;
+           aspect-ratio:1/1;
+           object-fit: cover;
+           border-radius:100%;
+       
+           
+         }
+       }
+       
+       .favourite-text{
+        text-align:center;
+     
+       .favourite-heading{
+         text-align:left;
+             font-size:1em;
+         font-weight:600;
+         margin-bottom:0.4em;
+         margin-top:0.4em;
+       }
+       .favourite-description{
+         text-align:left;
+         font-size:0.6em;
+         font-weight:400;
+     
+     
+       }
+       .favourite-other-details{
+         display:flex; 
+         justify-content:space-between;
+         margin-top:1em;
+         .price{
+               font-size:0.7em;
+         font-weight:600;
+   
+         .dollar-mark{
+             color: rgb(235, 90, 114);
+         }
+     
+         }
+         .rating{
+               font-size:0.7em;
+         font-weight:600;
+           .bi-star-fill{
+               color: gold;
+               margin-right: 0.4em;
+           }
+         }
+       }
+     }
+    
+  }
+  
+  
+ 
+  
+            // horizontal card
+
+ .horizontal-card { 
+    font-size: 20px;
+    padding: 0.5em;
+    padding-right: 2em;
+    display: inline-flex;
+    gap:1em;
+    height: 3.5em;
+    box-shadow:1px 1px 8px rgba(0,0,0,0.5);
+    border-radius:12px;
+    margin-top: 2em;
+    margin-left: 2em;
+	.image { 
+       
+		img { 
+            height: 100%;
+            aspect-ratio:1/1;
+            object-fit: cover;
+            border-radius: 12px;
+		}
+	}
+
+	.text { 
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+		.heading { 
+            font-size: 0.9em;
+            font-weight: 600;
+		}
+
+		.stars { 
+            font-size: 0.5em;
+
+			.bi-star-fill { 
+                margin-right: 0.4em;
+                color: gold;
+			}
+		}
+
+		.price { 
+            font-size: 0.9em;
+            font-weight: 600;
+			.dolloar-sign { 
+                font-size: 0.9em;
+                color: rgb(207, 85, 105);
+			}
+		}
+	}
+}           
+
+
+            // service card
+
+ .service-card { 
+    font-size: 20px;
+    padding-inline: 0.5em;
+    padding-block: 1em;
+   
+    width: 12em;
+    box-shadow:1px 1px 8px rgba(0,0,0,0.5);
+    border-radius:12px;
+    margin-top: 2em;
+    margin-left: 2em;
+    text-align: center;
+	.service-icon { 
+        font-size: 4em;
+        color: rgb(57, 155, 57);
+		.bi-cart-check { 
+
+		}
+	}
+
+	.heading { 
+        color: rgb(57, 155, 57);
+        font-weight: 600;
+        font-size: 0.9em;
+        margin-block:0.5em;
+	}
+
+	.description { 
+        color: rgb(46, 104, 46);
+        font-weight: 400;
+        font-size: 0.7em;
+        max-width: 80%;
+        margin-inline:auto;
+
+	}
+}           

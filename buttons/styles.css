@@ -1,0 +1,81 @@
+.btn-compo-css {
+  font-size: 16px;
+  color: white;
+  background-color: #19B300;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  letter-spacing: 1px;
+  opacity: 0.9;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.btn-compo-css:hover {
+  opacity: 0.8;
+  transform: translateY(-2px);
+}
+
+.btn-compo-css:active {
+  opacity: 1;
+  transform: translateY(2px);
+}
+
+.btn-compo-css:focus {
+  box-shadow: 0 0 0 4px #7AFA7F;
+}
+
+#submit-btn-big {
+  padding: 8px 16px;
+}
+
+#submit-btn-big:focus {
+  box-shadow: 0 0 0 4px #7AFA7F;
+}
+
+#submit-btn-small {
+  width: 120px;
+  height: 32px;
+}
+
+#submit-btn-small:focus {
+  box-shadow: 0 0 0 4px #7AFA7F;
+}
+
+#link-btn-big a {
+  display: block;
+  padding: 16px 32px;
+  text-decoration: none;
+  color: white;
+  border-radius: 4px;
+}
+#link-btn-big a:focus {
+  box-shadow: 0 0 0 4px #7AFA7F;
+}
+
+#link-btn-small a {
+  display: block;
+  height: 40px;
+  width: 200px;
+  text-decoration: none;
+  color: white;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#link-btn-small a:focus {
+  box-shadow: 0 0 0 4px #7AFA7F;
+}
+
+#div-btn-big {
+  display: inline-block;
+  padding: 12px 24px;
+}
+
+#div-btn-big:focus-within {
+  box-shadow: 0 0 0 4px #7AFA7F;
+}
+
+#div-btn-small {
+  display: inline-block;
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+                <div id="button-section" class="h-padding">
+
+                <div class="submit-buttons-div">
+
+                    <form action="">
+
+                        <input type="text">
+                        <input class="btn-compo-css" id="submit-btn-big" type="submit" value="Send big">
+                    </form>
+                    <form action="">
+
+                            <input type="text">
+                            <input class="btn-compo-css" id="submit-btn-small" type="submit" value="Send small">
+                    </form>
+    
+
+                </div>
+                <div class="link-buttons-div">
+                    <button class="btn-compo-css" id="link-btn-big">
+                        <a href="#footer">Link Btn Big</a>
+                    </button>
+                    <button class="btn-compo-css" id="link-btn-small">
+                            <a href="#footer">Link Btn Small</a>
+                    </button>
+    
+                </div>
+
+                <div class="div-buttons-div">
+                    <div class="btn-compo-css"  id="div-btn-big">
+                        Click big
+                    </div>
+                    <div class="btn-compo-css" id="div-btn-small">
+                        Click small
+                    </div>
+                </div>
+
+            </div>
+
+
+</body>
+</html>
