@@ -283,6 +283,9 @@ li {
 .navigation-wrapper .menu-area .menu-ul .menu-li:hover {
   opacity: 0.5;
 }
+.navigation-wrapper .icons-area {
+  display: none;
+}
 .navigation-wrapper .icons-area .bi-list {
   cursor: pointer;
   display: none;
@@ -299,6 +302,9 @@ li {
 @media (max-width: 768px) {
   .navigation-wrapper .menu-area .menu-ul {
     display: none;
+  }
+  .navigation-wrapper .icons-area {
+    display: block;
   }
   .navigation-wrapper .icons-area .bi-list.active {
     display: block;

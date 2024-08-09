@@ -354,6 +354,7 @@ li{
 	}
 
 	.icons-area { 
+                display: none;
                 .bi-list{
 
                         cursor: pointer;
@@ -402,7 +403,7 @@ li{
         
                 .icons-area { 
                        
-
+                        display: block;
                       
                         .bi-list{
                            
@@ -522,3 +523,5 @@ li{
                 pointer-events: all;
         }
 }
+
+
