@@ -273,6 +273,9 @@ li {
   object-fit: cover;
   border-radius: 100%;
 }
+.navigation-wrapper .logo-area .bi-x-square {
+  display: none;
+}
 .navigation-wrapper .menu-area .menu-ul {
   display: flex;
   gap: 2em;
@@ -286,9 +289,6 @@ li {
 }
 .navigation-wrapper .icons-area .bi-list:hover {
   opacity: 0.5;
-}
-.navigation-wrapper .icons-area .bi-x-square {
-  display: none;
 }
 
 .overlay-div {
@@ -313,13 +313,20 @@ li {
     height: 100%;
     z-index: 200;
     height: 100%;
-    padding-right: 2em;
-    width: 350px;
+    width: 330px;
     background-color: #F6FCF8;
   }
   .navigation-wrapper.active .logo-area {
     position: relative;
     z-index: 200;
+  }
+  .navigation-wrapper.active .logo-area .bi-x-square {
+    display: block;
+    margin-right: 1em;
+  }
+  .navigation-wrapper.active .logo-area .bi-x-square.active {
+    display: block;
+    color: red;
   }
   .navigation-wrapper.active .menu-area {
     position: relative;
@@ -335,18 +342,8 @@ li {
   .navigation-wrapper.active .icons-area {
     z-index: 200;
   }
-  .navigation-wrapper.active .icons-area .bi-x-square {
-    display: block;
-    position: fixed;
-    top: 2em;
-    left: 350px;
-  }
   .navigation-wrapper.active .icons-area .bi-list {
     display: none;
-  }
-  .navigation-wrapper.active .icons-area .bi-x-square.active {
-    display: block;
-    color: red;
   }
   .overlay-div {
     display: none;

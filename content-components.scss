@@ -330,7 +330,10 @@ li{
 
 		.logo-description { 
 
-		}
+                }
+                .bi-x-square{
+                        display: none;
+                }
 	}
 
 	.menu-area { 
@@ -359,9 +362,7 @@ li{
                 .bi-list:hover{
                         opacity: 0.5;
                 }
-                .bi-x-square{
-                        display: none;
-                }
+              
         }
       
 }
@@ -410,9 +411,7 @@ li{
                         }
                         .bi-list:hover{
                         }
-                        .bi-x-square{
-                              
-                        }
+                       
                         .bi-list.active{
                                 display: block; 
                                
@@ -422,11 +421,7 @@ li{
                             
                         }
                        
-                        .bi-x-square.active{
-                              
-                               
-
-                        }
+                       
                 }
               
         }
@@ -444,8 +439,8 @@ li{
                 z-index: 200;
                 height: 100%;
                
-                padding-right:2em;
-                width: 350px;
+              
+                width: 330px;
                 background-color: #F6FCF8;
                 ;
                 .logo-area { 
@@ -458,6 +453,17 @@ li{
         
                         .logo-description { 
         
+                        }
+                        .bi-x-square{
+                                display: block;
+                              
+                               margin-right: 1em;
+                        }
+                     
+                        .bi-x-square.active{
+                                display: block;
+                               color: red;
+
                         }
                 }
         
@@ -489,21 +495,12 @@ li{
                         }
                         .bi-list:hover{
                         }
-                        .bi-x-square{
-                                display: block;
-                                position: fixed;
-                                top: 2em;
-                                left: 350px;
-                        }
+                       
                         .bi-list{
                             display: none;
                         }
                        
-                        .bi-x-square.active{
-                                display: block;
-                               color: red;
-
-                        }
+                       
                 }
                
         }
