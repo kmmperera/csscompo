@@ -1,0 +1,37 @@
+
+:root{
+
+    /* backgroud colors *************************** backgroud colors */
+
+    --bg-pri-col:#fff;
+    --bg-sec-col:rgb(199, 199, 199);
+
+
+
+    /* button colors *************************** button colors */
+
+    --button-pri-bg-col:rgb(0, 64, 160);
+    --button-sec-bg-col:rgb(221, 227, 253);
+
+    --button-pri-text-col:#fff;
+    --button-sec-text-col:rgb(8, 53, 255);
+
+
+    /* text colors *************************** text colors */
+
+    --text-pri-col:rgb(0, 64, 160);
+    --text-sec-col:rgb(221, 227, 253);
+
+
+   /* borders *************************** borders */
+
+    --border-pri-col:rgb(0, 64, 160);
+    --border-sec-col:rgb(216, 216, 216);
+
+
+  /* navigation bg color *************************** navigation bg color  */
+
+  --nav-pri-bg-col:rgb(0, 64, 160);
+  --nav-sec-bg-col:rgb(221, 227, 253);
+
+}

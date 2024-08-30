@@ -4,6 +4,7 @@ html {
 
 body {
   font-family: "Roboto", sans-serif;
+  overflow-x: hidden;
 }
 
 *, *::before, *::after {
@@ -81,10 +82,14 @@ li {
   .navigation-wrapper .menu-area .menu-ul {
     position: fixed;
     width: 330px;
+    height: 100%;
     top: 0;
     left: -330px;
     display: block;
     transition: all 0.5s ease;
+  }
+  .navigation-wrapper .menu-area .menu-ul .menu-li {
+    margin-top: 1em;
   }
   .navigation-wrapper .icons-area {
     display: block;
@@ -106,7 +111,6 @@ li {
     padding-top: 2em;
   }
   .navigation-wrapper.active .menu-area .menu-ul .menu-li {
-    margin-top: 1em;
     margin-left: 0.5em;
   }
   .navigation-wrapper.active .menu-area .menu-ul .bi-x-square.active {

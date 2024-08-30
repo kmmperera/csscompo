@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./variables.css">
+    <link rel="stylesheet" href="./common.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="custom-styles.css">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <title>My css Lib</title>
+</head>
+
+<body>
+    <header class="navigation-header flex j-i-c j-c-c h-60 nav-pri-bg-col z-5 pos-fix t-0 l-0 w-100">
+        <nav class="w-100 flex j-c-s-b a-i-c container-padding pos-rel">
+            <div class="logo-container">
+                <a class=" text-h3 text-sec-col" href="#">Logo</a>
+            </div>
+            <div class="navigation-items flex text-sec-col" id="navigation-items">
+                <a class="text-p" href="">About</a>
+                <a class="text-p" href="">Projects</a>
+                <a class="text-p" href="">Contact Me</a>
+            </div>
+            <div class="hamburger fz-20 text-sec-col dis-non  cur-poi">
+                <span id="openHam">&#9776;</span>
+                <span id="closeHam">&#x2716;</span>
+            </div>
+        </nav>
+    </header>
+
+    <div class="hero-section w-100 h-100-vh nav-sec-bg-col">
+        <div class="hero-img pos-rel w-100 h-100-vh ">
+            <img class="pos-abs t-0 l-0 w-100 h-100 o-f-cov" src="./sample-image.jpg" alt="">
+        </div>
+        <div class="overlay-div pos-abs t-0 l-0 w-100 h-100-vh o-f-cov z-2">
+
+        </div>
+        <div class="hero-content z-3 pos-abs text-sec-col w-100 ">
+            <div class="hero-texts">
+                <p class="text-h4 text-ali-cen m-b-20">
+                    This is a short description
+                </p>
+                <h1 class="text-h1 m-b-40 text-ali-cen">
+                    This is main heading
+                </h1>
+                <div class="button-area flex j-c-c">
+                    <button class="btn-pri-round">
+                        Book now
+                    </button>
+                    <button class="btn-sec-round">
+                        Call us
+                    </button>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="section-padding container-padding bg-sec-col row ">
+        <div class="service-container col-12 col-sm-6 col-lg-4 flex a-i-c m-t-20 m-b-20">
+            <div class="service-img h-70 w-70 flex a-i-c border-pri-col border-rad-100 j-c-c ">
+                <i class="bi bi-server fz-20 text-pri-col"></i>
+            </div>
+            <div class="service-texts m-l-20">
+                <h4 class="service-title text-h4 m-b-10">
+                    Service one
+                </h4>
+                <p class="text-p">
+                    This is service description
+                </p>
+            </div>
+        </div>
+        <div class="service-container col-12 col-sm-6 col-lg-4 flex a-i-c  m-t-20 m-b-20">
+            <div class="service-img h-70 w-70 flex a-i-c border-pri-col border-rad-100 j-c-c ">
+                <i class="bi bi-display-fill fz-20 text-pri-col"></i>
+            </div>
+            <div class="service-texts m-l-20">
+                <h4 class="service-title text-h4 m-b-10">
+                    Service two
+                </h4>
+                <p class="text-p">
+                    This is service description
+                </p>
+            </div>
+        </div>
+        <div class="service-container col-12 col-sm-6 col-lg-4 flex a-i-c  m-t-20 m-b-20">
+            <div class="service-img h-70 w-70 flex a-i-c border-pri-col border-rad-100 j-c-c ">
+                <i class="bi bi-phone-fill fz-20 text-pri-col"></i>
+            </div>
+            <div class="service-texts m-l-20">
+                <h4 class="service-title text-h4 m-b-10">
+                    Service three
+                </h4>
+                <p class="text-p">
+                    This is service description
+                </p>
+            </div>
+        </div>
+
+
+    </div>
+
+    <div class="product-section container-padding section-padding">
+        <div class="products-text-area text-ali-cen col-12 col-md-6 m-inl-aut m-t-40 m-b-40">
+            <h3 class="product-section-heading text-h3 m-b-20">
+                Our Products
+            </h3>
+            <p class="text-p">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, fuga quas itaque eveniet beatae optio.
+
+
+            </p>
+        </div>
+        <div class="product-boxes row j-c-s-b">
+            <div class="product-box col-12 col-sm-5 col-md-4 col-lg-3 text-ali-cen p-b-40 max-w-70">
+                <img src="./sample-image.jpg" alt="" class="product-img w-100 o-f-cov m-b-40">
+
+                <h4 class="text-h4 product-name m-b-10">
+                    HP Laptop
+                </h4>
+                <p class="text-lable product-version m-b-20">
+                    HP 701
+                </p>
+                <p class="text-h4 product-price m-b-20">
+                    450$
+                </p>
+                <button class="add-to-cart btn-pri-round">
+                    Add to cart
+                </button>
+            </div>
+            <div class="product-box col-12 col-sm-5 col-md-4 col-lg-3 text-ali-cen p-b-40 max-w-70">
+                <img src="./sample-image.jpg" alt="" class="product-img w-100 o-f-cov m-b-40">
+
+                <h4 class="text-h4 product-name m-b-10">
+                    HP Laptop
+                </h4>
+                <p class="text-lable product-version m-b-20">
+                    HP 701
+                </p>
+                <p class="text-h4 product-price m-b-20">
+                    450$
+                </p>
+                <button class="add-to-cart btn-pri-round">
+                    Add to cart
+                </button>
+            </div>
+            <div class="product-box col-12 col-sm-5 col-md-4 col-lg-3 text-ali-cen p-b-40 max-w-70">
+                <img src="./sample-image.jpg" alt="" class="product-img w-100 o-f-cov m-b-40">
+
+                <h4 class="text-h4 product-name m-b-10">
+                    HP Laptop
+                </h4>
+                <p class="text-lable product-version m-b-20">
+                    HP 701
+                </p>
+                <p class="text-h4 product-price m-b-20">
+                    450$
+                </p>
+                <button class="add-to-cart btn-pri-round">
+                    Add to cart
+                </button>
+            </div>
+            <div class="product-box col-12 col-sm-5 col-md-4 col-lg-3 text-ali-cen p-b-40 max-w-70">
+                <img src="./sample-image.jpg" alt="" class="product-img w-100 o-f-cov m-b-40">
+
+                <h4 class="text-h4 product-name m-b-10">
+                    HP Laptop
+                </h4>
+                <p class="text-lable product-version m-b-20">
+                    HP 701
+                </p>
+                <p class="text-h4 product-price m-b-20">
+                    450$
+                </p>
+                <button class="add-to-cart btn-pri-round">
+                    Add to cart
+                </button>
+            </div>
+            <div class="product-box col-12 col-sm-5 col-md-4 col-lg-3 text-ali-cen p-b-40 max-w-70">
+                <img src="./sample-image.jpg" alt="" class="product-img w-100 o-f-cov m-b-40">
+
+                <h4 class="text-h4 product-name m-b-10">
+                    HP Laptop
+                </h4>
+                <p class="text-lable product-version m-b-20">
+                    HP 701
+                </p>
+                <p class="text-h4 product-price m-b-20">
+                    450$
+                </p>
+                <button class="add-to-cart btn-pri-round">
+                    Add to cart
+                </button>
+            </div>
+            <div class="product-box col-12 col-sm-5 col-md-4 col-lg-3 text-ali-cen p-b-40 max-w-70">
+                <img src="./sample-image.jpg" alt="" class="product-img w-100 o-f-cov m-b-40">
+
+                <h4 class="text-h4 product-name m-b-10">
+                    HP Laptop
+                </h4>
+                <p class="text-lable product-version m-b-20">
+                    HP 701
+                </p>
+                <p class="text-h4 product-price m-b-20">
+                    450$
+                </p>
+                <button class="add-to-cart btn-pri-round">
+                    Add to cart
+                </button>
+            </div>
+
+        </div>
+    </div>
+
+    <div class=" section-div  container-margin section-margin row ">
+        <div class="left-img   col-12 col-md-5">
+            <img class="section-img  w-100 h-100 o-f-cov border-rad-5" src="./sample-image.jpg" alt="">
+        </div>
+        <div class="right-side col-12 col-md-6 m-t-30 m-b-30">
+            <p class="topic-lable text-lable m-b-10">
+                This is a new post
+            </p>
+            <h2 class="section-heading m-b-20 text-h2 ">
+                We
+                <span class="text-pri-col ">back </span> again!
+            </h2>
+            <p class="description-one text-p m-b-10 ">
+                Etiam vulputate ut augue vel sodales. In sollicitudin neque et massa porttitor vestibulum ac vel nisi. Vestibulum placerat
+                eget dolor sit amet posuere. In ut dolor aliquet, aliquet sapien sed, interdum velit. Nam eu molestie lorem.
+
+
+            </p>
+            <p class="description-two text-p m-b-30">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente facilis illo repellat veritatis minus, et labore minima
+                mollitia qui ducimus.
+            </p>
+            <button class="section-button btn-pri-round">
+                Send now
+            </button>
+
+        </div>
+    </div>
+    <div class="section-div  container-margin section-margin row">
+        <div class="left-img   col-12 col-md-5">
+            <img class="section-img  w-100 h-100 o-f-cov border-rad-5" src="./sample-image.jpg" alt="">
+        </div>
+        <div class="right-side col-12 col-md-6 m-t-30 m-b-30 order--1">
+            <p class="topic-lable text-lable m-b-10">
+                This is a new post
+            </p>
+            <h2 class="section-heading m-b-20 text-h2 ">
+                We
+                <span class="text-pri-col ">back </span> again!
+            </h2>
+            <p class="description-one text-p m-b-10 ">
+                Etiam vulputate ut augue vel sodales. In sollicitudin neque et massa porttitor vestibulum ac vel nisi. Vestibulum placerat
+                eget dolor sit amet posuere. In ut dolor aliquet, aliquet sapien sed, interdum velit. Nam eu molestie lorem.
+
+
+            </p>
+            <p class="description-two text-p m-b-30">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente facilis illo repellat veritatis minus, et labore minima
+                mollitia qui ducimus.
+            </p>
+            <button class="section-button btn-pri-round">
+                Send now
+            </button>
+
+        </div>
+    </div>
+    <div class="todos">
+        box shadows transition psudo elements css hover effects responsive margins/paddings
+    </div>
+    <div class=" nav-pri-bg-col text-sec-col container-padding p-t-40 p-b-40">
+        <div class="m-b-40">
+            <div class="text-h3 text-sec-col">
+                Logo
+            </div>
+            <div class="text-h4">
+                Your company name
+
+            </div>
+        </div>
+        <div class="row ">
+            <div class="col-6 col-md-3 m-t-40">
+                <div class="text-h4 m-b-20">
+                    ABOUT
+                </div>
+                <ul class="">
+                    <li class="m-b-10">
+                        <a href="#" class="">About us</a>
+                    </li>
+                    <li class="m-b-10">
+                        <a href="#" class="">Contact us</a>
+                    </li>
+                    <li class="m-b-10">
+                        <a href="#" class="">Our mission</a>
+                    </li>
+                    <li class="m-b-10">
+                        <a href="#" class="">Our mission</a>
+                    </li>
+
+                </ul>
+            </div>
+            <div class="col-6 col-md-3 m-t-40">
+                <div class="text-h4 m-b-20">
+                    IMPRESSA
+                </div>
+                <ul class="">
+                    <li class="m-b-10">
+                        <a href="#" class="">Where we arek</a>
+                    </li>
+                    <li class="m-b-10">
+                        <a href="#" class="">Our services</a>
+                    </li>
+                    <li class="m-b-10">
+                        <a href="#" class="">Locations</a>
+                    </li>
+                    <li class="m-b-10">
+                        <a href="#" class="">Pricing</a>
+                    </li>
+                    <li class="m-b-10">
+                        <a href="#" class="">Our services</a>
+                    </li>
+                    <li class="m-b-10">
+                        <a href="#" class="">Locations</a>
+                    </li>
+                    <li class="m-b-10">
+                        <a href="#" class="">Pricing</a>
+                    </li>
+
+                </ul>
+            </div>
+            <div class="col-6 col-md-3 m-t-40">
+                <div class="text-h4 m-b-20">
+                    BLOG
+                </div>
+                <ul class="">
+                    <li class="m-b-10">
+                        <a href="#" class="">Tutorials</a>
+                    </li>
+                    <li class="m-b-10">
+                        <a href="#" class="">Vlog posts</a>
+                    </li>
+                    <li class="m-b-10">
+                        <a href="#" class="">Terms & Conditions</a>
+                    </li>
+                    <li class="m-b-10">
+                        <a href="#" class="">Join us</a>
+                    </li>
+                    <li class="m-b-10">
+                        <a href="#" class="">Our services</a>
+                    </li>
+                    <li class="m-b-10">
+                        <a href="#" class="">Locations</a>
+                    </li>
+                    <li class="m-b-10">
+                        <a href="#" class="">Categories</a>
+                    </li>
+
+                </ul>
+            </div>
+            <div class="col-6 col-md-3 m-t-40">
+                <div class="text-h4 m-b-20">
+                    SOCIAL MEDIA
+                </div>
+                <div class="text-p">
+                    Follow us on social media to find out the latest updates on our progress
+                </div>
+                <div id="">
+
+                </div>
+            </div>
+        </div>
+        <div id="">
+
+        </div>
+        <div class="m-t-40 row j-c-s-b">
+            <div class="text-p col-12 col-sm-6 col-lg-4 m-b-10">
+                2024 All rights reserved
+            </div>
+            <div class="text-p flex  m-b-10 col-12  col-sm-6 col-lg-4">
+                <div>
+                    Terms of Service
+                </div>
+                <div class="text-p m-l-30">
+                    Privacy Policy
+                </div>
+            </div>
+            <div id="footer-bootom-right" class="text-p m-b-10 col-12 col-lg-4 text-ali-rig">
+                English
+                <i class=""></i>
+                <div class="">
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+    <script src="./main.js">
+
+    </script>
+
+</body>
+
+</html>
